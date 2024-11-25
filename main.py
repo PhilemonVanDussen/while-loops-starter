@@ -27,19 +27,19 @@
 #     print(f'You lose, the number was {number}, try again')
 
 # Average Temperature
-temps = []
-user_int = 0
-while user_int > -9999 :
-    user_int = int(input('Enter a temperature in Fahrenheit (-9999 to quit) '))
-    temps.append(user_int)
+# temps = []
+# user_int = 0
+# while user_int > -9999 :
+#     user_int = int(input('Enter a temperature in Fahrenheit (-9999 to quit) '))
+#     temps.append(user_int)
 
-list_length = len(temps)
-if list_length > 0:
-    print(f'Temperatures entered: {temps}')
-    average_temp = sum(temps) / len(temps)
-    print(f'Average temperature: {average_temp}')
-else:
-    print('No temperatures entered')
+# list_length = len(temps)
+# if list_length > 0:
+#     print(f'Temperatures entered: {temps}')
+#     average_temp = sum(temps) / len(temps)
+#     print(f'Average temperature: {average_temp}')
+# else:
+#     print('No temperatures entered')
 
 
     
