@@ -39,7 +39,7 @@ list_length = len(temps)
 if list_length > 0:
     print(f'Temperatures entered: {temps}')
     average_temp = sum(temps) / len(temps)
-    print(f'Average temperature: {average_temp}')
+    print(f'Average temperature: {average_temp:.2f}')
 else:
     print('No temperatures entered')
 
