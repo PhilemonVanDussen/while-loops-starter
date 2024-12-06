@@ -29,11 +29,15 @@
 # Average Temperature
 temps = []
 user_int = 0
-while user_int != -9999 :
+keep_looping = True
+while keep_looping:
     user_int = int(input('Enter a temperature in Fahrenheit (-9999 to quit) '))
-    temps.append(user_int)
-
-temps.pop()
+    if user_int == -9999:
+        keep_looping = False
+    
+    else:
+        temps.append(user_int)
+    
 
 list_length = len(temps)
 if list_length > 0:
